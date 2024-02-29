@@ -1,0 +1,41 @@
+body{
+    background-color: #D5CFC3;
+}
+p{
+    color: white ;
+    font-size: 35px;
+    font-family:system-ui;
+    text-align: center;
+    margin-top: 25px;
+
+}
+.mainpic{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin-top:1px;
+}
+.info{
+    display: flex;
+    justify-content: space-evenly;
+    border:solid #99978A;
+   
+    
+}
+.history{
+    color: #99978A;
+
+}
+.company {
+    width: 60%; 
+    margin: auto; /* Center the div horizontally */
+    margin-top: 150px; /* Add margin from the top */
+    margin-bottom: 150px; /* Add margin from the bottom */
+    text-align: center; /* Center the text inside the div */
+}
+
+.mainP {
+    font-size: 40px; /* Adjust font size as needed */
+    color: #333; /* Adjust text color as needed */
+}
