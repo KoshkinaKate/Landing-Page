@@ -1,41 +1,71 @@
-body{
-    background-color: #D5CFC3;
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
 }
-p{
-    color: white ;
-    font-size: 35px;
-    font-family:system-ui;
+
+.info {
     text-align: center;
-    margin-top: 25px;
+    margin-top: 20px;
+}
 
+.info-item {
+    display: inline-block;
+    margin: 0 10px;
 }
-.mainpic{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  margin-top:1px;
-}
-.info{
-    display: flex;
-    justify-content: space-evenly;
-    border:solid #99978A;
-   
-    
-}
-.history{
-    color: #99978A;
 
+.navbar {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
 }
+
+.navbar-text {
+    margin: 0;
+    font-size: 24px;
+}
+
+.mainpic {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.mainpic img {
+    max-width: 100%;
+    height: auto;
+}
+
 .company {
-    width: 60%; 
-    margin: auto; /* Center the div horizontally */
-    margin-top: 150px; /* Add margin from the top */
-    margin-bottom: 150px; /* Add margin from the bottom */
-    text-align: center; /* Center the text inside the div */
+    text-align: center;
+    margin-top: 60px;
 }
 
-.mainP {
-    font-size: 40px; /* Adjust font size as needed */
-    color: #333; /* Adjust text color as needed */
+.company-text {
+    font-size: 50px;
+    color: #333;
+}
+.designer {
+    display: flex; 
+    align-items: center; 
+}
+
+.designer img {
+    width: 500px; 
+    height: auto; 
+    margin-right: 20px; /* Add space between image and text */
+}
+
+.content h2 {
+    margin-top: 0; /* Remove default margin */
+    font-size: 34px; /* Adjust header font size */
+    font-weight: bold; /* Make header bold */
+    margin-bottom: 10px; /* Add margin below header */
+}
+
+.content p {
+    line-height: 2.5; /* Increase line spacing for better readability */
+    font-size:20px;
+    color:#333;
 }
